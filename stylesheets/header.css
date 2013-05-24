@@ -1,0 +1,117 @@
+/* navigation bar */
+/* line 4, ../sass/header.scss */
+#topnav {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+/* line 10, ../sass/header.scss */
+#topnav #navbtn {
+  display: none;
+  float: right;
+  top: 0;
+  width: 20px;
+  height: 70px;
+  background: url("../img/menu.png") center no-repeat;
+  text-indent: -99999px;
+  overflow: hidden;
+}
+
+/* line 21, ../sass/header.scss */
+#topnav nav {
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+
+/* line 27, ../sass/header.scss */
+#topnav nav ul {
+  list-style: none;
+}
+
+/* line 30, ../sass/header.scss */
+#topnav nav ul li {
+  display: block;
+  float: left;
+  font-size: 1.4em;
+  margin-right: 4px;
+}
+
+/* line 37, ../sass/header.scss */
+#topnav nav ul li a {
+  display: block;
+  text-decoration: none;
+  line-height: 70px;
+  color: #8ea188;
+  font-weight: bold;
+  padding: 0 10px;
+  border-bottom: 2px solid #fff;
+}
+
+/* line 47, ../sass/header.scss */
+#topnav nav ul li a:hover {
+  color: #6f8767;
+  background: #ddecd9;
+  border-bottom-color: #bdd8b5;
+}
+
+/* responsive styles */
+@media screen and (max-width: 560px) {
+  /* line 55, ../sass/header.scss */
+  h2 {
+    font-size: 2.2em;
+  }
+
+  /* line 56, ../sass/header.scss */
+  p {
+    font-size: 1.45em;
+    line-height: 1.55em;
+  }
+
+  /* line 57, ../sass/header.scss */
+  #topnav {
+    height: auto;
+  }
+
+  /* line 58, ../sass/header.scss */
+  #topnav nav {
+    display: none;
+    position: static;
+    width: 100%;
+    top: auto;
+    right: auto;
+  }
+
+  /* line 65, ../sass/header.scss */
+  #topnav nav ul li {
+    float: none;
+    margin: 0;
+  }
+
+  /* line 66, ../sass/header.scss */
+  #topnav nav ul li a {
+    display: block;
+    width: 100%;
+    line-height: 1.4em;
+    border: 0;
+    padding: 6px 9px;
+    background: #dcf4dc;
+  }
+
+  /* line 74, ../sass/header.scss */
+  #topnav nav ul li a:hover {
+    background: #cbdcc5;
+  }
+
+  /* line 77, ../sass/header.scss */
+  #topnav nav ul li a.sel {
+    color: #6f8767;
+    background: #cbdcc5;
+  }
+
+  /* line 82, ../sass/header.scss */
+  #topnav #navbtn {
+    display: block;
+  }
+}
