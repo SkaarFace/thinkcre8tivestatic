@@ -1,0 +1,281 @@
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 13, ../sass/_base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'socialicoregular';
+  src: url("socialico-webfont.eot");
+  src: url("socialico-webfont.eot?#iefix") format("embedded-opentype"), url("socialico-webfont.woff") format("woff"), url("socialico-webfont.ttf") format("truetype"), url("socialico-webfont.svg#socialicoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../sass/_base.scss */
+body {
+  background-image: url("../img/background.png");
+}
+
+/* line 50, ../sass/_base.scss */
+a {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: #bfc4d2;
+}
+/* line 54, ../sass/_base.scss */
+a:hover {
+  color: #415379;
+}
+
+/* line 9, ../sass/sizzle.scss */
+#background {
+  background-image: url("../img/gradient_sliver.png");
+  background-repeat: repeat-x;
+}
+
+/* line 15, ../sass/sizzle.scss */
+#shell {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 413px;
+}
+
+/* line 25, ../sass/sizzle.scss */
+#bulbContainer {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  z-index: 100;
+}
+
+/* line 33, ../sass/sizzle.scss */
+#bulb {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 40, ../sass/sizzle.scss */
+#smallGear {
+  position: absolute;
+  top: 110px;
+  left: 70px;
+  -moz-animation-name: cckw;
+  -moz-animation-duration: 10s;
+  -webkit-animation-name: cckw;
+  -webkit-animation-duration: 10s;
+  z-index: 100;
+}
+
+/* line 53, ../sass/sizzle.scss */
+#bigGear {
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  z-index: 100;
+  -moz-animation-name: ckw;
+  -moz-animation-duration: 10s;
+  -webkit-animation-name: ckw;
+  -webkit-animation-duration: 10s;
+}
+
+/* line 66, ../sass/sizzle.scss */
+#shadowContainer {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  z-index: 50;
+}
+
+/* line 74, ../sass/sizzle.scss */
+#bulbShadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 81, ../sass/sizzle.scss */
+#bigShadow {
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  -moz-animation-name: ckw;
+  -moz-animation-duration: 10s;
+  -webkit-animation-name: ckw;
+  -webkit-animation-duration: 10s;
+  z-index: 50;
+}
+
+/* line 94, ../sass/sizzle.scss */
+#smallShadow {
+  position: absolute;
+  top: 110px;
+  left: 70px;
+  -moz-animation-name: cckw;
+  -moz-animation-duration: 10s;
+  -webkit-animation-name: cckw;
+  -webkit-animation-duration: 10s;
+  z-index: 50;
+}
+
+/* line 107, ../sass/sizzle.scss */
+#cityScape {
+  position: absolute;
+  height: 339px;
+  bottom: 0;
+  z-index: 25;
+}
+
+/* line 115, ../sass/sizzle.scss */
+#cityShadow {
+  position: absolute;
+  height: 339px;
+  bottom: 0;
+  z-index: 10;
+}
+
+/* line 123, ../sass/sizzle.scss */
+.gear {
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: normal;
+  -moz-animation-delay: 0;
+  -moz-animation-play-state: running;
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-delay: 0;
+  -webkit-animation-play-state: running;
+  -webkit-animation-fill-mode: forwards;
+}
+
+/* CSS3 keyframes */
+@-webkit-keyframes ckw {
+  /* line 143, ../sass/sizzle.scss */
+  0% {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 147, ../sass/sizzle.scss */
+  100% {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes ckw {
+  /* line 153, ../sass/sizzle.scss */
+  0% {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 157, ../sass/sizzle.scss */
+  100% {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes cckw {
+  /* line 163, ../sass/sizzle.scss */
+  0% {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+
+  /* line 167, ../sass/sizzle.scss */
+  100% {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@-moz-keyframes cckw {
+  /* line 173, ../sass/sizzle.scss */
+  0% {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+
+  /* line 177, ../sass/sizzle.scss */
+  100% {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+}

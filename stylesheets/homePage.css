@@ -1,0 +1,311 @@
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 13, ../sass/_base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'socialicoregular';
+  src: url("socialico-webfont.eot");
+  src: url("socialico-webfont.eot?#iefix") format("embedded-opentype"), url("socialico-webfont.woff") format("woff"), url("socialico-webfont.ttf") format("truetype"), url("socialico-webfont.svg#socialicoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../sass/_base.scss */
+body {
+  background-image: url("../img/background.png");
+}
+
+/* line 50, ../sass/_base.scss */
+a {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: #bfc4d2;
+}
+/* line 54, ../sass/_base.scss */
+a:hover {
+  color: #415379;
+}
+
+/* line 4, ../sass/homePage.scss */
+.mainContent {
+  *position: relative;
+  *zoom: 1;
+}
+/* line 46, ../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.mainContent:before, .mainContent:after {
+  content: "";
+  display: table;
+}
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.mainContent:after {
+  clear: both;
+}
+
+/* line 9, ../sass/homePage.scss */
+.servicesContainer {
+  float: left;
+  width: 66.66667%;
+  margin-left: 0%;
+  margin-right: -66.66667%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 15, ../sass/homePage.scss */
+.socialMedia {
+  float: left;
+  width: 33.33333%;
+  margin-left: 0%;
+  margin-right: -33.33333%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  border-top: 0px dotted #bfc4d2;
+  border-right: 5px dotted #bfc4d2;
+  border-bottom: 5px dotted #bfc4d2;
+  border-left: 0px dotted #bfc4d2;
+}
+
+/* line 21, ../sass/homePage.scss */
+.webWork {
+  float: left;
+  width: 33.33333%;
+  margin-left: 33.33333%;
+  margin-right: -66.66667%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  border-top: 0px dotted #bfc4d2;
+  border-right: 5px dotted #bfc4d2;
+  border-bottom: 5px dotted #bfc4d2;
+  border-left: 5px dotted #bfc4d2;
+}
+
+/* line 27, ../sass/homePage.scss */
+.software {
+  float: left;
+  width: 33.33333%;
+  margin-left: 66.66667%;
+  margin-right: -100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  border-top: 0px dotted #bfc4d2;
+  border-right: 0px dotted #bfc4d2;
+  border-bottom: 5px dotted #bfc4d2;
+  border-left: 5px dotted #bfc4d2;
+}
+
+/* line 33, ../sass/homePage.scss */
+.video {
+  clear: left;
+  float: left;
+  width: 33.33333%;
+  margin-left: 0%;
+  margin-right: -33.33333%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  border-top: 5px dotted #bfc4d2;
+  border-right: 5px dotted #bfc4d2;
+  border-bottom: 0px dotted #bfc4d2;
+  border-left: 0px dotted #bfc4d2;
+}
+
+/* line 40, ../sass/homePage.scss */
+.print {
+  float: left;
+  width: 33.33333%;
+  margin-left: 33.33333%;
+  margin-right: -66.66667%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  border-top: 5px dotted #bfc4d2;
+  border-right: 5px dotted #bfc4d2;
+  border-bottom: 0px dotted #bfc4d2;
+  border-left: 5px dotted #bfc4d2;
+}
+
+/* line 46, ../sass/homePage.scss */
+.consulting {
+  float: left;
+  width: 33.33333%;
+  margin-left: 66.66667%;
+  margin-right: -100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  border-top: 5px dotted #bfc4d2;
+  border-right: 0px dotted #bfc4d2;
+  border-bottom: 0px dotted #bfc4d2;
+  border-left: 5px dotted #bfc4d2;
+}
+
+/* line 52, ../sass/homePage.scss */
+.blogPost {
+  float: left;
+  width: 33.33333%;
+  margin-left: 66.66667%;
+  margin-right: -100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
+/* line 57, ../sass/homePage.scss */
+#mainContent {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 65, ../sass/homePage.scss */
+.service h2 {
+  margin-bottom: .5em;
+  font-family: "lexia",serif;
+  color: #415379;
+  font-size: 1.5em;
+  text-align: center;
+  overflow: hidden;
+  *zoom: 1;
+  clear: both;
+}
+/* line 75, ../sass/homePage.scss */
+.service p {
+  font-family: "lexia",serif;
+  color: #415379;
+}
+/* line 80, ../sass/homePage.scss */
+.service img {
+  float: left;
+}

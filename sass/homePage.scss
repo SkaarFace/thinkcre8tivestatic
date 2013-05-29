@@ -1,0 +1,83 @@
+@import "base";
+
+.mainContent
+{
+	@include zen-grid-container;
+}
+
+.servicesContainer
+{
+	@include zen-grid-item(8,1);
+	@include zen-nested-container();
+}
+
+.socialMedia
+{
+	@include zen-grid-item(4, 1);
+	@include serviceBorder(0px, 5px, 5px, 0px);
+}
+
+.webWork
+{
+	@include zen-grid-item(4, 5);
+	@include serviceBorder(0px, 5px, 5px, 5px);
+}
+
+.software
+{
+	@include zen-grid-item(4, 9);
+	@include serviceBorder(0px, 0px, 5px, 5px);
+}
+
+.video
+{
+	@include zen-clear();
+	@include zen-grid-item(4, 1);
+	@include serviceBorder(5px, 5px, 0px, 0px);
+}
+
+.print
+{
+	@include zen-grid-item(4, 5);
+	@include serviceBorder(5px, 5px, 0px, 5px);
+}
+
+.consulting
+{
+	@include zen-grid-item(4, 9);
+	@include serviceBorder(5px, 0px, 0px, 5px);
+}
+
+.blogPost
+{
+	@include zen-grid-item(4, 9);
+}
+
+#mainContent
+{
+	@include centered;
+	width: 100%;
+}
+
+.service
+{
+	h2
+	{
+		margin-bottom: .5em;
+		font-family: "lexia",serif;
+		color: $mainColor;
+		font-size: 1.5em;
+		text-align: center;
+		@include clearfix;
+		clear: both;
+	}
+	p
+	{
+		font-family: "lexia",serif;
+		color: $mainColor;
+	}
+	img
+	{
+		float: left;
+	}
+}

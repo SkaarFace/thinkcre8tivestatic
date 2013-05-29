@@ -1,117 +1,257 @@
-/* navigation bar */
-/* line 4, ../sass/header.scss */
-#topnav {
-  display: block;
-  width: 100%;
-  position: relative;
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
-/* line 10, ../sass/header.scss */
-#topnav #navbtn {
-  display: none;
-  float: right;
-  top: 0;
-  width: 20px;
-  height: 70px;
-  background: url("../img/menu.png") center no-repeat;
-  text-indent: -99999px;
-  overflow: hidden;
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
 }
 
-/* line 21, ../sass/header.scss */
-#topnav nav {
-  position: absolute;
-  top: 0;
-  right: -10px;
-}
-
-/* line 27, ../sass/header.scss */
-#topnav nav ul {
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
   list-style: none;
 }
 
-/* line 30, ../sass/header.scss */
-#topnav nav ul li {
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
+}
+
+/* line 13, ../sass/_base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'socialicoregular';
+  src: url("socialico-webfont.eot");
+  src: url("socialico-webfont.eot?#iefix") format("embedded-opentype"), url("socialico-webfont.woff") format("woff"), url("socialico-webfont.ttf") format("truetype"), url("socialico-webfont.svg#socialicoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../sass/_base.scss */
+body {
+  background-image: url("../img/background.png");
+}
+
+/* line 50, ../sass/_base.scss */
+a {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: #bfc4d2;
+}
+/* line 54, ../sass/_base.scss */
+a:hover {
+  color: #415379;
+}
+
+/* line 5, ../sass/header.scss */
+.container {
+  *position: relative;
+  *zoom: 1;
+}
+/* line 46, ../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.container:before, .container:after {
+  content: "";
+  display: table;
+}
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.container:after {
+  clear: both;
+}
+
+/* line 10, ../sass/header.scss */
+.logo {
   float: left;
-  font-size: 1.4em;
-  margin-right: 4px;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: -50%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
 }
 
-/* line 37, ../sass/header.scss */
-#topnav nav ul li a {
-  display: block;
+/* line 15, ../sass/header.scss */
+.nestedContainer {
+  float: left;
+  width: 50%;
+  margin-left: 50%;
+  margin-right: -100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 21, ../sass/header.scss */
+.socialLinks {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
+/* line 26, ../sass/header.scss */
+.topnav {
+  clear: left;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
+/* line 32, ../sass/header.scss */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 40, ../sass/header.scss */
+.logo h1 {
+  color: #415379;
+}
+/* line 49, ../sass/header.scss */
+.logo h1 span {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+/* line 52, ../sass/header.scss */
+.logo h1 span:hover {
+  text-shadow: #0b58fe 0px 0px 15px, #083aa4 0px 0px 10px, #072057 0px 0px 5px;
+}
+
+/* line 60, ../sass/header.scss */
+.socialLinks {
+  margin-top: .5em;
+  text-align: right;
+}
+/* line 66, ../sass/header.scss */
+.socialLinks ul li {
+  display: inline-block;
+}
+/* line 69, ../sass/header.scss */
+.socialLinks ul li a {
+  font-family: "Icons";
   text-decoration: none;
-  line-height: 70px;
-  color: #8ea188;
-  font-weight: bold;
-  padding: 0 10px;
-  border-bottom: 2px solid #fff;
 }
 
-/* line 47, ../sass/header.scss */
-#topnav nav ul li a:hover {
-  color: #6f8767;
-  background: #ddecd9;
-  border-bottom-color: #bdd8b5;
+/* navigation bar */
+/* line 79, ../sass/header.scss */
+.topnav {
+  margin-top: .75em;
+  text-align: right;
+  font-size: 1.5em;
 }
-
-/* responsive styles */
-@media screen and (max-width: 560px) {
-  /* line 55, ../sass/header.scss */
-  h2 {
-    font-size: 2.2em;
-  }
-
-  /* line 56, ../sass/header.scss */
-  p {
-    font-size: 1.45em;
-    line-height: 1.55em;
-  }
-
-  /* line 57, ../sass/header.scss */
-  #topnav {
-    height: auto;
-  }
-
-  /* line 58, ../sass/header.scss */
-  #topnav nav {
-    display: none;
-    position: static;
-    width: 100%;
-    top: auto;
-    right: auto;
-  }
-
-  /* line 65, ../sass/header.scss */
-  #topnav nav ul li {
-    float: none;
-    margin: 0;
-  }
-
-  /* line 66, ../sass/header.scss */
-  #topnav nav ul li a {
-    display: block;
-    width: 100%;
-    line-height: 1.4em;
-    border: 0;
-    padding: 6px 9px;
-    background: #dcf4dc;
-  }
-
-  /* line 74, ../sass/header.scss */
-  #topnav nav ul li a:hover {
-    background: #cbdcc5;
-  }
-
-  /* line 77, ../sass/header.scss */
-  #topnav nav ul li a.sel {
-    color: #6f8767;
-    background: #cbdcc5;
-  }
-
-  /* line 82, ../sass/header.scss */
-  #topnav #navbtn {
-    display: block;
-  }
+/* line 86, ../sass/header.scss */
+.topnav ul li {
+  display: inline-block;
+}
+/* line 89, ../sass/header.scss */
+.topnav ul li:after {
+  color: #bfc4d2;
+  font-family: "orator-std", sans-serif;
+  content: '>';
+}
+/* line 95, ../sass/header.scss */
+.topnav ul li:last-child:after {
+  content: '';
+}
+/* line 99, ../sass/header.scss */
+.topnav ul li a {
+  padding-right: 5px;
+  font-family: "orator-std", sans-serif;
+  text-decoration: none;
+}
+/* line 109, ../sass/header.scss */
+.topnav #navbtn {
+  display: none;
 }
