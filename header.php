@@ -30,8 +30,9 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<header class = "container">
 		<section class = "logo">
-			<h1 id = "logoTitle">Think Cre8tive</h1>
+			<h1 id = "logoTitle">Think CRE8TIVE</h1>
 		</section>
+		<h1 class = "test">CRE8TIVE</h1>
 		<div class = "nestedContainer">
 			<section class = "socialLinks">
 				<ul>
@@ -40,6 +41,7 @@
 					<li><a href="#">.</a></li>
 					<li><a href="#">!</a></li>
 					<li><a href="#">6</a></li>
+					<li><a href="#">8</a></li>
 				</ul>
 			</section>
 			<section class = "topnav">

@@ -6,29 +6,31 @@
 	@include zen-grid-container;
 }
 
-@media only screen and (min-device-width: 320px)
-	and (max-device-width: 750px)
+.logo
 {
-
-	.logo
-	{
-		@include zen-grid-item(12, 1);
-	}
-
-	.socialLinks
-	{
-		@include zen-clear();
-		@include zen-grid-item(12,1);
-	}
-
-	.topnav
-	{
-		@include zen-clear();
-		@include zen-grid-item(12,1);
-	}
+	@include zen-grid-item(12, 1);
+	@include zen-clear();
 }
 
-@media only screen and (min-device-width: 700px)
+.socialLinks
+{
+	@include zen-clear();
+	@include zen-grid-item(12,1);
+}
+.nestedContainer
+{
+	@inclue zen-clear();
+	@include zen-grid-item(12, 1);
+	@include zen-nested-container();
+}
+
+.topnav
+{
+	@include zen-clear();
+	@include zen-grid-item(12,1);
+}
+
+@media only screen and (min-width: 700px)
 {
 
 	.logo
@@ -75,6 +77,7 @@
 
 		span
 		{
+			font-family: "icomoon";
 			@include transition-duration(.5s);
 			&:hover
 			{
@@ -82,6 +85,12 @@
 			}
 		}
 	}
+}
+
+h1
+{
+
+	font-family: "icomoon";
 }
 
 .socialLinks
