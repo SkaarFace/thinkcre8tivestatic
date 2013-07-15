@@ -24,7 +24,7 @@
 #bulbContainer
 {
 	position:absolute;
-	top: 0;
+	top: -30px;
 	left: 10%;
 	z-index: 100;
 }
@@ -39,7 +39,7 @@
 #smallGear
 {
 	position:absolute;
-	top: 110px;
+	top: 135px;
 	left: 70px;
 	-moz-animation-name: cckw;
     -moz-animation-duration: 10s;
@@ -52,7 +52,7 @@
 #bigGear
 {
 	position:absolute;
-	top: 110px;
+	top: 135px;
 	left: 90px;
 	z-index: 100;
 	-moz-animation-name: ckw;
@@ -65,7 +65,7 @@
 #shadowContainer
 {
 	position: absolute;
-	top: 0;
+	top: -30px;
 	left: 10%;
 	z-index: 50;
 }
@@ -80,7 +80,7 @@
 #bigShadow
 {
 	position:absolute;
-	top: 110px;
+	top: 135px;
 	left: 90px;
 	-moz-animation-name: ckw;
     -moz-animation-duration: 10s;
@@ -93,7 +93,7 @@
 #smallShadow
 {
 	position:absolute;
-	top: 110px;
+	top: 135px;
 	left: 70px;
 	-moz-animation-name: cckw;
     -moz-animation-duration: 10s;

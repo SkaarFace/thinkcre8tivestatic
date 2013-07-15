@@ -14,11 +14,20 @@
 			<script type="text/javascript" language="javascript" charset="utf-8" src="js/menu.js"></script>
 			<script type="text/javascript" language="javascript" charset="ut-8" src="js/plax.js"></script>
 			<script type="text/javascript" language="javascript" charset="ut-8" src="js/jquery.fittext.js"></script>
-			<script type="text/javascript" language="javascript" charset="ut-8" src="js/jquery.lettering.js"></script>						
+			<script type="text/javascript" language="javascript" charset="ut-8" src="js/jquery.lettering.js"></script>
+			<script type="text/javascript" language="javascript" charset="ut-8" src="js/jquery.colorbox.js"></script>						
 			<script type="text/javascript" src="//use.typekit.net/ibe0fyk.js"></script>
 			<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	</head>
 <body>
+<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<header class = "container">
 		<section class = "logo">
 			<h1 id = "logoTitle">Think Cre8tive</h1>
@@ -26,11 +35,11 @@
 		<div class = "nestedContainer">
 			<section class = "socialLinks">
 				<ul>
-					<li><a href="#">F</a></li>
-					<li><a href="#">L</a></li>
-					<li><a href="#">&amp;</a></li>
-					<li><a href="#">&#58</a></li>
-					<li><a href="#">I</a></li>
+					<li><a href="#">-</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">.</a></li>
+					<li><a href="#">!</a></li>
+					<li><a href="#">6</a></li>
 				</ul>
 			</section>
 			<section class = "topnav">
